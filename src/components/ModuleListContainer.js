@@ -26,7 +26,8 @@ export default class ModuleListContainer
             <div>
                 <ul className="list-group">
                     <li className="list-group-item">
-                        <input className="form-control"/>
+                        <input placeholder="Module List" className="form-control"/>
+                        <button className="btn btn-primary btn-block">Create</button>
                     </li>
                     {
                         this.state.modules.map(module=>
