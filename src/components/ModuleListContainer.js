@@ -25,6 +25,9 @@ export default class ModuleListContainer
         return (
             <div>
                 <ul className="list-group">
+                    <li>
+                        <input/>
+                    </li>
                     {
                         this.state.modules.map(module=>
                             <ModuleListItems
